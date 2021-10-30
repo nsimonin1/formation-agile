@@ -4,8 +4,8 @@ import com.afrinnov.formation.dispo.model.Product;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
-import java.util.Collections;
 
+import static java.util.Collections.singletonList;
 import static org.assertj.core.api.Assertions.assertThat;
 
 
@@ -32,7 +32,7 @@ class CustomerBasketTest {
         Product item = new Product();
         item.setReference("0006");
         item.setPrice(2000);
-        CustomerBasket basket = new CustomerBasket(Collections.singletonList(new BasketItem(item)));
+        CustomerBasket basket = new CustomerBasket(singletonList(new BasketItem(item)));
         //Act
         Product product = new Product();
         product.setReference("0006");
