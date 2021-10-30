@@ -1,0 +1,78 @@
+{
+  "products": [
+    {
+      "reference": "001",
+      "title": "APPLE MACBOOK AIR 13'",
+      "price": 600000,
+      "descriptions": [
+        "Superbe écran Retina de 13,3 pouces d’une résolution de 2 560 x 1 600",
+        "Puce Apple M1 8 cœurs avec 4 cœurs hautes performances et 4 cœurs à haute efficacité énergétique"
+      ]
+    },
+    {
+      "reference": "002",
+      "title": "APPLE IPAD MINI",
+      "price": 350000,
+      "descriptions": [
+        "Ecran Retina LED 7,9\" (19,7 cm) Résolution : 2048 x 1536 pixels",
+        "Capacité de 64 Go - Wi-Fi + Bluetooth 5.0"
+      ]
+    },
+    {
+      "reference": "003",
+      "title": "PROLINE PLC235WH",
+      "price": 150000,
+      "descriptions": [
+        "Réfrigérateur à Froid statique 154L",
+        "Congélateur à Froid statique 69L",
+        "Faible encombrement"
+      ]
+    },
+    {
+      "reference": "004",
+      "title": "XIAOMI Mi 360° Home Security Camera 2K Pro",
+      "price": 25000,
+      "descriptions": [
+        "Alimentation : Sans fil",
+        "Vision nocturne : Oui + Infrarouge",
+        "Type d'alimentation : Batterie",
+        "Objet connecté : Oui"
+      ]
+    },
+    {
+      "reference": "005",
+      "title": "Prise téléphone RJ45 ZENITECH Bel'Vue - Blanc",
+      "price": 3500,
+      "descriptions": [
+        "Prise tél. RJ45 Bel'Vue - Blanc"
+      ]
+    },
+    {
+      "reference": "006",
+      "title": "DODO Couette",
+      "price": 40000,
+      "descriptions": [
+        "Enveloppe : 100% Polyester",
+        "Type de fibre : Synthétique"
+      ]
+    },
+    {
+      "reference": "007",
+      "title": "Panier filaire en métal ajouré",
+      "price": 5000,
+      "descriptions": [
+        "Dimensions : 22-30 x22-30x20cm",
+        "Matières : METAL",
+        "Couleur(s) : BLANC"
+      ]
+    },
+    {
+      "reference": "008",
+      "title": "Table basse design",
+      "price": 50000,
+      "descriptions": [
+        "Ariene constitue une table basse moderne qui donnera une touche design à votre intérieur"
+      ]
+    }
+  ]
+}

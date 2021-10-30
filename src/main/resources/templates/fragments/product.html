@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <div th:fragment="product(product)">
+        <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+                <h4 class="my-0 fw-normal" th:text="${product.title}">Free</h4>
+            </div>
+            <div class="card-body">
+                <h1 class="card-title pricing-card-title">[[${product.price}]]<small class="text-muted fw-light"> F CFA</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                    <li th:each="details:${product.descriptions}">[[${details}]]</li>
+                </ul>
+                <a th:href="@{/product-add(product=${product.reference})}" class="w-100 btn btn-lg btn-outline-primary">Ajouter au panier</a>
+            </div>
+        </div>
+    </div>
+</html>
