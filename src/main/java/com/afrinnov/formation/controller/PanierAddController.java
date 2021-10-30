@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 @RequiredArgsConstructor
 public class PanierAddController {
     private final PanierAddService panierAddService;
-
     @GetMapping
     public String addProduct(@RequestParam("product") String productCode) {
         panierAddService.addToBasket(productCode);
