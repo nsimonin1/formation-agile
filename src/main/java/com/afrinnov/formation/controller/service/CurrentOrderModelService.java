@@ -40,6 +40,7 @@ public class CurrentOrderModelService {
     }
 
     private HttpSession getCurrentSession() {
-        return Optional.ofNullable(request.getSession(false)).orElseThrow(AfrinnovAuthenticationException::new);
+        return Optional.ofNullable(request.getSession(false))
+                .orElseThrow(AfrinnovAuthenticationException::new);
     }
 }
